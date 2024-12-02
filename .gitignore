@@ -1,0 +1,51 @@
+# Environnement virtuel (venv)
+.env/
+venv/
+
+
+# Fichiers pyc (fichiers compilés Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers temporaires
+*.db
+*.sqlite3
+*.log
+
+# Fichiers spécifiques à l'IDE
+.idea/
+.vscode/
+
+# Fichiers de configuration Django (par exemple, clés secrètes)
+*.env
+*.venv
+*.config
+
+# Fichiers de cache et de session Django
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Fichiers de migrations (sauf si vous avez une bonne raison de les versionner)
+migrations/
+
+# Fichiers de base de données (SQLite, par exemple)
+db.sqlite3
+*db.sqlite3
+
+# Fichiers spécifiques aux outils de packaging comme Docker
+.dockerignore
+docker-compose.override.yml
+
+# Dossiers de la plateforme Heroku
+.heroku/
+
+# Autres fichiers ignorés
+*.bak
+*.swp
+*.swo
+
+*settings_local.py
