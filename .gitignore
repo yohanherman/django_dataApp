@@ -29,9 +29,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Fichiers de migrations (sauf si vous avez une bonne raison de les versionner)
-migrations/
-
 # Fichiers de base de données (SQLite, par exemple)
 db.sqlite3
 *db.sqlite3
